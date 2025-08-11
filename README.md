@@ -1,0 +1,43 @@
+Actividad 11: Prototipo Front-End de Tienda de Ropa
+Descripción del Proyecto
+Este es un prototipo de front-end para una tienda de ropa online, desarrollado como parte de una actividad académica. El proyecto demuestra el uso de tecnologías web estándar y la implementación de principios de diseño responsivo y accesibilidad.
+
+Tecnologías Utilizadas
+HTML5: Estructura del contenido.
+
+CSS3: Estilos y diseño visual.
+
+JavaScript (ES6): Funcionalidades interactivas.
+
+Bootstrap 5: Framework para el diseño responsivo y la maquetación.
+
+Características Principales
+Página de Inicio (index.html): Incluye un carrusel de productos destacado.
+
+Página de Productos (productos.html): Simula un catálogo de artículos.
+
+Página de Contacto (contacto.html): Contiene un formulario con validación básica.
+
+Modo Oscuro: Funcionalidad para cambiar el tema de la página, mejorando la accesibilidad visual.
+
+Carrito de Compras: Sistema básico para agregar y gestionar productos.
+
+Accesibilidad (WCAG 2.2)
+El proyecto ha sido desarrollado siguiendo las pautas WCAG 2.2 para garantizar la accesibilidad. Se implementaron las siguientes prácticas:
+
+Uso de alt text en imágenes.
+
+Etiquetas aria-label para botones con iconos.
+
+Estructura semántica con etiquetas como <header>, <main>, y <footer>.
+
+Alto contraste y navegación clara.
+
+Visualización y Código
+Puedes ver el proyecto en vivo y revisar el código fuente a través de los siguientes enlaces:
+
+Proyecto en Vivo (GitHub Pages):
+https://geesner.github.io/actividad-11-tienda-de-ropa/index.html
+
+Código Fuente del Repositorio:
+https://github.com/Geesner/actividad-11-tienda-de-ropa
