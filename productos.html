@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa - Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html" aria-label="Ir a la página de inicio">
+                <img src="img/logo.png" alt="Logo de la Tienda de Ropa">
+            </a>
+        </div>
+        <nav class="main-nav" aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html" class="active">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="user-controls">
+            <button aria-label="Abrir buscador">🔍</button>
+            <button id="cart-toggle" aria-label="Ver carrito de compras">🛒</button>
+            <button id="dark-mode-toggle" aria-label="Cambiar a modo oscuro">🌙</button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="products-list" aria-labelledby="products-heading">
+            <h1 id="products-heading">Nuestros Productos</h1>
+            <p class="products-slogan">Descubre nuestra colección completa de ropa y accesorios para todas las temporadas.</p>
+
+            <div class="product-grid row">
+                <article class="product-card">
+                    <img src="img/producto9.jpg" alt="Abrigo de Piel">
+                    <h3>Abrigo de Piel</h3>
+                    <p>Precio: $120.00</p>
+                    <button class="button buy-button" data-name="Abrigo de Piel" data-price="120.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto5.jpg" alt="Blusa de flores">
+                    <h3>Blusa de Flores</h3>
+                    <p>Precio: $30.00</p>
+                    <button class="button buy-button" data-name="Blusa de Flores" data-price="30.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto1.jpg" alt="Camiseta Básica">
+                    <h3>Camiseta Básica</h3>
+                    <p>Precio: $15.00</p>
+                    <button class="button buy-button" data-name="Camiseta Básica" data-price="15.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto7.jpg" alt="Cárdigan de Lana">
+                    <h3>Cárdigan de Lana</h3>
+                    <p>Precio: $55.00</p>
+                    <button class="button buy-button" data-name="Cárdigan de Lana" data-price="55.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto6.jpg" alt="Falda Plisada">
+                    <h3>Falda Plisada</h3>
+                    <p>Precio: $45.00</p>
+                    <button class="button buy-button" data-name="Falda Plisada" data-price="45.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto11.jpg" alt="Gorra">
+                    <h3>Gorra</h3>
+                    <p>Precio: $20.00</p>
+                    <button class="button buy-button" data-name="Gorra" data-price="20.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto12.jpg" alt="Guantes">
+                    <h3>Guantes</h3>
+                    <p>Precio: $18.00</p>
+                    <button class="button buy-button" data-name="Guantes" data-price="18.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto2.jpg" alt="Pantalón vaquero de corte recto.">
+                    <h3>Pantalón Vaquero</h3>
+                    <p>Precio: $35.00</p>
+                    <button class="button buy-button" data-name="Pantalón Vaquero" data-price="35.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto8.jpg" alt="Pantalón de Pana">
+                    <h3>Pantalón de Pana</h3>
+                    <p>Precio: $50.00</p>
+                    <button class="button buy-button" data-name="Pantalón de Pana" data-price="50.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto4.jpg" alt="Sudadera con Capucha">
+                    <h3>Sudadera con Capucha</h3>
+                    <p>Precio: $50.00</p>
+                    <button class="button buy-button" data-name="Sudadera con Capucha" data-price="50.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto10.jpg" alt="Sudadera Gris">
+                    <h3>Sudadera Gris</h3>
+                    <p>Precio: $40.00</p>
+                    <button class="button buy-button" data-name="Sudadera Gris" data-price="40.00">Comprar</button>
+                </article>
+                <article class="product-card">
+                    <img src="img/producto3.jpg" alt="Vestido de Verano">
+                    <h3>Vestido de Verano</h3>
+                    <p>Precio: $40.00</p>
+                    <button class="button buy-button" data-name="Vestido de Verano" data-price="40.00">Comprar</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <div id="cart-container">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items">
+            <p>Tu carrito está vacío.</p>
+        </div>
+        <div id="cart-total">
+            <p>Total: $0.00</p>
+        </div>
+        <button id="close-cart-button" class="button">Cerrar</button>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Tienda de Ropa. Todos los derechos reservados.</p>
+        <nav aria-label="Enlaces del pie de página">
+            <ul>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
