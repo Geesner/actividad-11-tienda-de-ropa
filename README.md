@@ -15,17 +15,6 @@ Características Principales
 - Modo Oscuro: Funcionalidad para cambiar el tema de la página, mejorando la accesibilidad visual.
 - Carrito de Compras: Sistema básico para agregar y gestionar productos.
 
-Accesibilidad (WCAG 2.2)
-El proyecto ha sido desarrollado siguiendo las pautas WCAG 2.2 para garantizar la accesibilidad. Se implementaron las siguientes prácticas:
-
-Uso de alt text en imágenes.
-
-Etiquetas aria-label para botones con iconos.
-
-Estructura semántica con etiquetas como <header>, <main>, y <footer>.
-
-Alto contraste y navegación clara.
-
 Visualización y Código
 Acontinuación se presentan los enlaces al proyecto final y a su código fuente.
 
